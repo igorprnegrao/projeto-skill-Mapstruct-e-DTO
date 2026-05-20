@@ -15,6 +15,23 @@ e menor risco de erros manuais durante as conversões de dados.
 https://github.com/igorprnegrao/projeto-skill-Mapstruct-e-DTO.git
 ```
 
+```java
+/**
+ * Mapeador responsável por converter entre a entidade Pessoa
+ * e seus respectivos DTOs (Data Transfer Objects)
+ */
+@Mapper(componentModel = "spring")
+public interface PessoaMapper {
+
+    /* Converte um PessoaRequestDTO para a entidade Pessoa */
+    @Mapping(target = "id", ignore = true)
+    Pessoa toEntity(PessoaRequestDTO dto);
+
+    /* Converte uma entidade Pessoa para PessoaResponseDTO */
+    PessoaResponseDTO toDTO(Pessoa pessoa);
+}
+```
+
 
 # Exemplos de endpoints
 
