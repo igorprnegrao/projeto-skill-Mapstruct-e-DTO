@@ -12,7 +12,7 @@ e menor risco de erros manuais durante as conversões de dados.
 ## Clonar repositório
 
 ```bash
-git clone https://github.com/Moyses-Zerbieti/projeto-Uninter.git
+https://github.com/igorprnegrao/projeto-skill-Mapstruct-e-DTO.git
 ```
 
 ---
