@@ -71,7 +71,7 @@ DTO
         ↓
 Controller
         ↓
-Reponse
+Response
 ```
 
 
