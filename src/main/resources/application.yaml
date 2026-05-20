@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: mapstruct
+  datasource:
+    url: jdbc:h2:mem:map
+    driverClassName: org.h2.Driver
+    username: mapstruct
+    password: root
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop # Altere de 'validate' para 'create-drop' para desenvolvimento com H2
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
