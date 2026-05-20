@@ -15,4 +15,13 @@ e menor risco de erros manuais durante as conversões de dados.
 https://github.com/igorprnegrao/projeto-skill-Mapstruct-e-DTO.git
 ```
 
+
+# Exemplos de endpoints
+
+## Criar produto
+
+```http
+POST htttp://localhost:8080/pessoas
+```
+
 ---
