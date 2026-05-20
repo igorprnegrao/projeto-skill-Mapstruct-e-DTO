@@ -24,4 +24,28 @@ https://github.com/igorprnegrao/projeto-skill-Mapstruct-e-DTO.git
 POST /pessoas/cadastro
 ```
 
+
+Body:
+
+```json
+{
+  "nome": "igor",
+  "sobrenome": "negrao",
+  "email": "igor@email.com",
+  "senha": "senhasegura123"
+}
+```
+Response:
+
+```json
+{
+  "id": "6c2351d1-f56c-48ae-80a4-03d253352b7a"
+  "nome": "igor",
+  "sobrenome": "negrao",
+  "email": "igor@email.com",
+  
+}
+```
+
+
 ---
