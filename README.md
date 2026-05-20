@@ -46,5 +46,33 @@ Response:
 }
 ```
 
+## Fluxo do cadastro
+
+```text
+Request
+        ↓
+Controller
+        ↓
+DTO
+        ↓
+Service
+        ↓
+Mapper
+        ↓
+Entidade
+        ↓
+DBA
+        ↓
+Entidade
+        ↓
+Mapper
+        ↓
+DTO
+        ↓
+Controller
+        ↓
+Reponse
+```
+
 
 ---
