@@ -21,7 +21,7 @@ https://github.com/igorprnegrao/projeto-skill-Mapstruct-e-DTO.git
 ## Criar produto
 
 ```http
-POST htttp://localhost:8080/pessoas
+POST /pessoas
 ```
 
 ---
