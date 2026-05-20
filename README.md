@@ -76,3 +76,9 @@ Response
 
 
 ---
+
+# Autor
+
+## Igor Negrão 
+
+Projeto desenvolvido para fins acadêmicos e prática de desenvolvimento backend com Java, Spring Boot e MapStruct.
